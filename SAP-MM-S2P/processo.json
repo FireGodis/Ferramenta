@@ -1,0 +1,12 @@
+{
+  "process": "source-to-pay",
+  "modules": ["SAP MM", "SAP FI"],
+  "systems": ["SAP ECC", "SAP S/4HANA"],
+  "steps": [
+    {"name": "requisicao", "control": "centro de custo e aprovador"},
+    {"name": "pedido", "control": "fornecedor e condicoes comerciais"},
+    {"name": "recebimento", "control": "quantidade e documento de entrada"},
+    {"name": "fatura", "control": "conferencia e contabilizacao FI"}
+  ],
+  "integration_options": ["SAP SRM", "Coupa"]
+}
