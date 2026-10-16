@@ -1,0 +1,19 @@
+grupo,termo,observacao
+impostos,ICMS,validar regra conforme operacao
+impostos,ICMS-ST,avaliar substituicao tributaria
+impostos,ISS,avaliar servico e municipio
+impostos,PIS,validar cenario fiscal
+impostos,COFINS,validar cenario fiscal
+impostos,IPI,validar cenario fiscal
+reforma,IBS,acompanhar parametrizacao aplicavel
+reforma,CBS,acompanhar parametrizacao aplicavel
+configuracao,J1BTAX,analisar determinacao fiscal
+configuracao,TAXBRA,analisar procedimento fiscal
+configuracao,TAXBRJ,analisar procedimento fiscal
+codificacao,CFOP,validar natureza da operacao
+codificacao,CST,validar situacao tributaria
+codificacao,IVA,validar esquema de calculo
+ferramenta,SAP DRC,documentos e conformidade
+ferramenta,Thomson Reuters,integracao fiscal externa
+ferramenta,Synchro,integracao fiscal externa
+ferramenta,Avalara,integracao fiscal externa
