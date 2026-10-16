@@ -1,0 +1,8 @@
+{
+  "order_fulfillment": [
+    {"name": "APU", "description": "retirada do pedido na loja", "checks": ["estoque", "separacao", "confirmacao de retirada"]},
+    {"name": "SFS", "description": "envio a partir da loja", "checks": ["loja expedidora", "reserva", "expedicao"]},
+    {"name": "IDL", "description": "logistica de distribuicao de entrada", "checks": ["aviso", "recebimento", "atualizacao do estoque"]}
+  ],
+  "modules": ["SAP SD", "SAP MM"]
+}
