@@ -1,0 +1,8 @@
+{
+  "scenarios": [
+    {"flow": "FI-SD", "event": "faturamento", "result": "receita e contas a receber"},
+    {"flow": "FI-MM", "event": "registro de fatura", "result": "obrigacao e atualizacao contabil"},
+    {"flow": "non-SAP", "event": "documento externo", "control": "validar origem, chave e retorno"}
+  ],
+  "topics": ["determinacao de contas", "User Exits", "WebDynpro"]
+}
